@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import useFetch from '../../forms/useFetch';
+/*import React, { useState, useEffect } from 'react';
+//import useFetch from '../../forms/useFetch';
 
 const SelectChannel = ({ onSelectChannel }) => {
   const [channelList, setChannelList] = useState([]);
@@ -48,4 +48,4 @@ const SelectChannel = ({ onSelectChannel }) => {
   );
 };
 
-export default SelectChannel;
+export default SelectChannel;*/

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import useFetch from '../../forms/useFetch';
+/*import React, { useState, useEffect } from 'react';
+//import useFetch from '../../forms/useFetch';
 
 
 const SelectProgram = ({ selectedChannelUid, selectedDate, onSelectProgram }) => {
@@ -61,4 +61,4 @@ const SelectProgram = ({ selectedChannelUid, selectedDate, onSelectProgram }) =>
   );
 };
 
-export default SelectProgram;
+export default SelectProgram;*/
