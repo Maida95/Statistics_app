@@ -1,8 +1,26 @@
 const { Sequelize, DataTypes } = require('sequelize');
 
-// Create a new Sequelize instance
+/* Create a new Sequelize instance
 const sequelize = new Sequelize('statistics', 'root', 'password', {
     host: "127.0.0.1",
+    dialect: "mysql",
+    logging: false
+});
+*/
+
+/*
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=mojatv
+DB_USERNAME=root
+DB_PASSWORD=root321
+
+*/
+
+// Create a new Sequelize instance for remote DB connection
+const sequelize = new Sequelize('statistics', 'statistics', 'statistics', {
+    host: "10.120.14.159",  
     dialect: "mysql",
     logging: false
 });
